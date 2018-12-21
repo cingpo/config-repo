@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: order
+  datasource:
+    username: root
+    password: password02
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+#设置负载均衡方案，PRODUCT为要调用的service名字
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+    #RandomRule
+server:
+  port: 8081
+env:
+  dev
