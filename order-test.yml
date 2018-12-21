@@ -19,5 +19,5 @@ server:
 env:
   test88
 girl:
-  name: Man
+  name: Girl
   age: 100
