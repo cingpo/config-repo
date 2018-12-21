@@ -17,7 +17,7 @@ PRODUCT:
 server:
   port: 8081
 env:
-  test34
+  test88
 girl:
   name: Jason
   age: 100
