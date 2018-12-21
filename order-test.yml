@@ -19,5 +19,5 @@ server:
 env:
   test34
 girl:
-  name: Jony
-  age: 18
+  name: Mary
+  age: 20
